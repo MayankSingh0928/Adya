@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Adya RO Water",
+    "slug": "adya-ro-water",
+    "scheme": "adyarowater",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "android": {
+      "package": "com.adya.rowater",
+      "versionCode": 1,
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "fedaeef1-d808-4c15-b9c6-2575cb8590a4"
+      }
+    }
+  }
+}

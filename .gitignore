@@ -1,0 +1,20 @@
+# Dependencies and generated files
+node_modules/
+**/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+.expo/
+.vercel/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Build outputs and signing keys
+*.apk
+*.aab
+*.jks
+*.keystore
+*.log

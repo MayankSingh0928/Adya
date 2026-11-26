@@ -1,0 +1,1 @@
+{"cli":{"version":">= 12.0.0","appVersionSource":"local"},"build":{"preview":{"distribution":"internal","env":{"EXPO_PUBLIC_API_URL":"http://10.253.168.183:4000/api"},"android":{"buildType":"apk"}},"production":{"android":{"buildType":"app-bundle"}}}}

@@ -1,0 +1,6 @@
+{
+  "name": "adya-ro-water",
+  "private": true,
+  "workspaces": ["mobile", "server"],
+  "scripts": { "mobile": "npm run start --workspace mobile", "api": "npm run dev --workspace server", "seed": "npm run seed --workspace server" }
+}
